@@ -6,7 +6,7 @@
 #    By: mdoumi <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/11/27 10:28:15 by mdoumi            #+#    #+#              #
-#    Updated: 2023/02/25 15:26:09 by mdoumi           ###   ########.fr        #
+#    Updated: 2023/02/26 11:08:36 by mdoumi           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -17,12 +17,11 @@ SRCS =	algo.c \
 		commands.c \
 		commands2.c \
 		commands3.c \
-		min_sort.c \
 		push_swap.c \
 		push.c \
-		utils.c \
 		ft_split.c \
-		gadjo.c \
+		utils.c \
+		utils2.c \
 		get_next_line/get_next_line_utils_bonus.c
 
 BSRCS =	checker.c \
@@ -32,11 +31,10 @@ BSRCS =	checker.c \
 		commands.c \
 		commands2.c \
 		commands3.c \
-		min_sort.c \
 		push.c \
 		utils.c \
+		utils2.c \
 		ft_split.c \
-		gadjo.c
 
 GCC = gcc -Wall -Wextra -Werror
 

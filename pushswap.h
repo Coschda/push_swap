@@ -6,7 +6,7 @@
 /*   By: mdoumi <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/26 08:38:47 by mdoumi            #+#    #+#             */
-/*   Updated: 2023/02/25 15:28:37 by mdoumi           ###   ########.fr       */
+/*   Updated: 2023/02/26 11:08:04 by mdoumi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -68,13 +68,6 @@ void			rr(t_stack *a, t_stack *b, int pp);
 void			rra(t_stack *a, int pp);
 void			rrb(t_stack *b, int pp);
 void			rrr(t_stack *a, t_stack *b, int pp);
-
-//min_sort.c
-
-size_t			ft_strlen(const char *str);
-void			sort3(t_stack *a);
-void			sort4(t_stack *a, t_stack *b);
-void			sort5(t_stack *a, t_stack *b);
 
 //push.c
 

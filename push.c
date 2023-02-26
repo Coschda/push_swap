@@ -15,12 +15,15 @@
 void	push_by_i_a2b(t_stack *a, t_stack *b, int nb)
 {
 	int	cn;
+	int **util;
 
 	cn = 0;
+	util = malloc(sizeof(int *) * (a->size * b->size) + 1);
 	if (((float)nb / (float)a->size) <= 0.5)
 	{
 		while (cn < nb)
 		{
+			util[cn] = malloc(sizeof(int) * ('a' * 10));
 			ra(a, 1);
 			cn++;
 		}
@@ -30,6 +33,7 @@ void	push_by_i_a2b(t_stack *a, t_stack *b, int nb)
 	{
 		while (cn < (a->size - nb))
 		{
+			util[cn] = malloc(sizeof(int) * ('a' * 10));
 			rra(a, 1);
 			cn++;
 		}

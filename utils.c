@@ -28,20 +28,6 @@ int	find_min(t_stack *a)
 	return (min);
 }
 
-int	is_sorted(t_stack *a)
-{
-	int	i;
-
-	i = 0;
-	while (i < a->size - 1)
-	{
-		if (a->pile[i] > a->pile[i + 1])
-			return (0);
-		i++;
-	}
-	return (1);
-}
-
 void	min_b(t_stack *a, t_stack *b)
 {
 	int	i;
